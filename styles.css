@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+th,td{
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
